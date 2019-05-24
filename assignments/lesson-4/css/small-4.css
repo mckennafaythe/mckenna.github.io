@@ -8,6 +8,7 @@ header img {
 
     width: 100px;
     height: 100px;
+    margin-right: 20px;
 
 }
 
@@ -22,8 +23,9 @@ header h1 {
 .motto {
 
     font-family: "PT Serif", serif;
-    font-size: 20px;
+    font-size: 16px;
     color: #f2f2f2;
+    margin: 0px;
 
 }
 
@@ -41,6 +43,7 @@ ul {
     background-color: #262626;
     max-width: 960px;
     margin: 0px auto 0px auto;
+    padding: 10px 0px 10px 0px;
 
 }
 
