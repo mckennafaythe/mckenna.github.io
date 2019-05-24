@@ -30,13 +30,6 @@ header h1 {
 
 }
 
-#mainNav {
-
-    margin: 0px;
-    padding: 0px;
-
-}
-
 ul {
 
     font-family: Roboto, sans-serif;
@@ -58,6 +51,7 @@ a {
 li {
 
     padding: 10px 0px 10px 0px;
+    max-width: 960px;
 
 }
 
