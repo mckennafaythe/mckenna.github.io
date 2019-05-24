@@ -1,4 +1,11 @@
-#mainNav {
+header img {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+div h1 {
 
     font-family: Roboto, sans-serif;
     font-size: 35px;
@@ -14,7 +21,7 @@
 
 }
 
-#footerNav {
+#mainNav {
 
     font-family: Roboto, sans-serif;
     font-size: 20px;
@@ -22,8 +29,10 @@
 
 }
 
-#inline {
+#footerNav {
 
-    display: inline;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #f2f2f2;
 
 }
