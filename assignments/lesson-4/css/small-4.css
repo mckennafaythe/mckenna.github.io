@@ -1,0 +1,29 @@
+#mainNav {
+
+    font-family: Roboto, sans-serif;
+    font-size: 35px;
+    color: #d9583b;
+
+}
+
+.motto {
+
+    font-family: "PT Serif", serif;
+    font-size: 20px;
+    color: #f2f2f2;
+
+}
+
+#footerNav {
+
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #f2f2f2;
+
+}
+
+#inline {
+
+    display: inline;
+
+}
