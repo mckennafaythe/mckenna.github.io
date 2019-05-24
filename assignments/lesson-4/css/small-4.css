@@ -38,6 +38,11 @@ header h1 {
     background-color: #262626;
     max-width: 960px;
     margin: 0px auto 0px auto;
+
+}
+
+li {
+
     padding: 10px 0px 10px 0px;
 
 }
