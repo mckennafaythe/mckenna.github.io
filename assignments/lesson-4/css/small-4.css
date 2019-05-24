@@ -56,13 +56,15 @@ header {
 
 }
 
-#mainNav ul li a:hover {
+
+
+#mainNav ul li:hover {
 
     background-color: rgb(0, 0, 0);
 
 }
 
-#mainNav ul li a:active {
+#mainNav ul li:active {
 
     background-color: #a0dbf2;
 
