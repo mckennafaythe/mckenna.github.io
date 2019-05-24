@@ -24,7 +24,8 @@ header h1 {
 .motto {
 
     font-family: "PT Serif", serif;
-    font-size: 16px;
+    font-size: 12px;
+    font-style: italic;
     color: #f2f2f2;
     margin: 0px 0px 20px 0px;
 
@@ -37,7 +38,7 @@ ul {
     color: #f2f2f2;
     list-style: none;
     background-color: #262626;
-    max-width: 920px;
+    max-width: 960px;
     margin: 0px auto 0px auto;
 
 }
