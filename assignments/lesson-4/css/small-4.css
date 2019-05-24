@@ -87,7 +87,7 @@ header {
 
 }
 
-#mainNav ul li a:active, #mainNav ul li a:active {
+#mainNav ul li a:active, #mainNav ul li:active {
 
     color: #a0dbf2;
 
