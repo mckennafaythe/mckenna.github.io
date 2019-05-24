@@ -67,19 +67,19 @@ header {
 
 }
 
-#mainNav ul li:link, #mainNav ul li:visited {
+#mainNav ul li a:link, #mainNav ul li a:visited {
 
     color: #f2f2f2;
 
 }
 
-#mainNav ul li:hover {
+#mainNav ul li a:hover {
 
     background-color: rgb(0, 0, 0);
 
 }
 
-#mainNav ul li:active {
+#mainNav ul li a:active {
 
     color: #a0dbf2;
 
