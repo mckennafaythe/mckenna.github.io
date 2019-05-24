@@ -9,6 +9,7 @@ header img {
 
     width: 100px;
     height: 100px;
+    padding: 30px;
 
 }
 
@@ -25,6 +26,7 @@ header h1 {
     font-family: "PT Serif", serif;
     font-size: 20px;
     color: #f2f2f2;
+    display: inline;
 
 }
 
@@ -60,12 +62,5 @@ header {
 
     background-color: #a0dbf2;
     margin: 20px auto 0px auto;
-    text-align: center;
-
-}
-
-header h1, header img {
-
-    display: inline;
 
 }
