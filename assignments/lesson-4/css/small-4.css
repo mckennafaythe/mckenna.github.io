@@ -42,3 +42,16 @@ ul (
     list-style: none;
 
 )
+
+li {
+
+    background-color: #262626;
+
+}
+
+header {
+
+    background-color: #a0dbf2;
+    margin: 20px auto 0px auto;
+
+}
