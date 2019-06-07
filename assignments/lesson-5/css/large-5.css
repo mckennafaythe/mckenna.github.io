@@ -1,17 +1,113 @@
-ul {
+@media only screen and (min-width: 32.5em) {
+  
+    .motto h1 {
+        
+        font-size: 45px;
+        
+    }  
+      
+    .motto h2{
+    
+        font-size: 25px;
+        
+    }
+      
+    #mainNav ul {
+        
+        padding: 20px 0px;
+        margin: 0px;
+        
+    }
+    
+    #mainNav ul li {
+    
+        display: inline;
+        padding: 20px;
+        margin: 0px;
+      
+    }
+    
+    #forecast {
+      
+        display: inline;
+      
+    }
+      
+    table {
+        
+        margin: 0px auto;
+        border-collapse: collapse;
+        max-width: 70%;
+        
+    }
+      
+    th {
+        
+        text-transform: uppercase;
+        border: 1px solid #262626;
+        background-color: #a0dbf2;
+        padding: 5px;
+        
+    }
+      
+    td img {
+        
+        width: 35%;
+        padding: 10px 10px 0px 10px;
+        
+    }
+      
+    td {
+        
+        border: 1px solid #262626;
+        
+    }  
+      
+    #summary h3 {
+        
+        font-size: 25px;
+        
+    }
+    
+    #weatherTitle, #weatherLive {
+      
+        font-size: 20px;
+      
+    }
+    
+    #summary {
+      
+        width: 40%;
+        max-width: 500px;
+        top: 15%;
+        left: 15%;
+      
+    }
+    
+    section img, article {
+      
+        width: 80%;
+      
+    }
+      
+     article img {
 
-    font-family: Roboto, sans-serif;
-    font-size: 20px;
-    color: #f2f2f2;
-    list-style-type: none;
-    background-color: #262626;
-    margin: 0px auto 0px auto;
-    padding: 0px;
-
-}
-
-li {
-
-    display: inline;
-
+        width: 40%;
+        float: right;
+        margin: 20px;
+        
+      }
+    
+    #contactMap img {
+    
+        width: 30%;
+      
+    }
+    
+    #contactMap p {
+    
+        padding-left: 45%;
+      
+    }
+    
 }
