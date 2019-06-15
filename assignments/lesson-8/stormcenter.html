@@ -54,8 +54,8 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                 <legend>Reporter's Information</legend>
-                    <label>Full Name* <input type="text" name="fullName" required pattern="[A-Za-z]" minlength="5"></label>
-                    <label>Email </label> <input type="email" name="email" placeholder="someone@email.com"></label>
+                    <label>Full Name* <input type="text" name="fullName" required pattern="A-Za-z" minlength="5"></label>
+                    <label>Email <input type="email" name="email" placeholder="someone@email.com"></label>
                     <label>Phone* <input type="tel" name="phone" required></label>
                     <label>Zip Code* <input type="number" name="zip" required></label>
                 </fieldset>
@@ -65,11 +65,11 @@
                     <label>Storm date <input type="date" name="stormD"></label>
                     <label>Storm Type<input list="stormType" name="stormT">
                         <datalist id="stormType">
-                            <option value="flood">
-                            <option value="hail">
-                            <option value="hurricane">
-                            <option value="thunder">
-                            <option value="tornado">
+                            <option value="Flash Flood">
+                            <option value="Hail">
+                            <option value="Hurricane">
+                            <option value="Thunderstorm">
+                            <option value="Tornado">
                         </datalist>
                     </label>
                     <label>Storm Severity (1 to 10)<input type="range" value="5" min="1" max="10" step="1" name="severity" ></label>
