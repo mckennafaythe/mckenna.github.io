@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+
+<html lang="en-US">
+
+<head>
+
+    <title>Day and Night Weather</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description"
+        content="Weather site featuring cities in south-east Idaho created by McKenna Ashcraft for BYU-Idaho's CIT 230 class, Spring 2019">
+
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+    <link href="css/small-5.css" type="text/css" rel="stylesheet">
+    <link href="css/large-5.css" type="text/css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header id="mainHead">
+
+        <img src="images/logo.png" alt="site logo">
+
+        <div class="motto">
+
+            <h1>Day and Night Weather</h1>
+
+            <h2>Weather updates when you need them,<br>no matter what time of day or night</h2>
+
+        </div>
+
+    </header>
+
+    <main>
+
+        <nav id="mainNav">
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
+            </ul>
+
+        </nav>
+
+        <h1>Report a Storm</h1>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                <legend>Reporter's Information</legend>
+                    <label>Full Name* <input type="text" name="fullName" required pattern="[A-Za-z19] {5}"></label>
+                    <label>Email </label> <input type="email" name="email" placeholder="someone@email.com"></label>
+                    <label>Phone* <input type="tel" name="phone" required></label>
+                    <label>Zip Code* <input type="number" name="zip" required></label>
+                </fieldset>
+
+                <fieldset>
+                <legend>Storm Information</legend>
+                    <label>Storm date <input type="date" name="stormD"></label>
+                    <label>Storm Type<input list="stormType" name="stormT">
+                        <datalist name="stormType">
+                            <option value="flood">
+                            <option value="hail">
+                            <option value="hurricane">
+                            <option value="thunder">
+                            <option value="tornado">
+                        </datalist>
+                    </label>
+                    <label>Storm Severity (1 to 10)<input type="range" value="5" min="1" max="10" step="1" name="severity" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"></label><span id="ratingvalue">5</span>
+                    <label>Storm Region
+                        <select name="stormRegion">
+                            <option value="">Select Region... &#9662;</option>
+                            <option value="preston">Preston</option>
+                            <option value="sugar">Sugar City</option>
+                            <option value="haven">Fish Haven</option>
+                        </select>
+                    </label>
+                    <div>Are You in Danger?</div>
+                    <label><input type="radio" name="danger" value="yes">Yes</label>
+                    <label><input type="radio" name="danger" value="maybe">Maybe</label>
+                    <label><input type="radio" name="danger" value="no">No</label>
+                </fieldset>
+
+                <input type="submit" value="Send Storm Info">
+
+            </form>
+
+        <section id="contactMap">
+
+            <p><span>Day and Night Weather</span><br>30 N 1st E<br>Preston, ID 83263</p>
+
+            <p>999.999.9999<br>mckenna@dnw.com</p>
+
+            <img src="images/map.jpeg" alt="map">
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2019 Day and Night Weather | McKenna Ashcraft<br>Thursday, June 6, 2019</p>
+
+    </footer>
+
+
+</body>
+
+</html>
