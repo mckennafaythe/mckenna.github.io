@@ -257,6 +257,7 @@
 
   form label.scale input {
     display: block;
+    margin-top: .5rem;
   }
 
   form label.top input, form label.top select {
