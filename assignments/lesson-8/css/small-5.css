@@ -238,6 +238,7 @@
       border: 1px solid #262626;
       border-radius: 5px;
       padding: .5rem 2%;
+      width: 96%;
   }
 
   form legend {
