@@ -260,7 +260,7 @@
       border: solid 1px #a0dbf2;
       border-radius: 5px;
       padding: .75rem;
-      color: #a0dbf2;
+      color: #262626;
       width: 100%;
       max-width: 20rem;
       background-color: rgba (0,0,0,.1);
@@ -269,7 +269,7 @@
   form label.sbs {
       display: block;
       padding: .75rem;
-      color: #a0dbf2;
+      color: #262626;
   }
 
   form input.submitBtn {
