@@ -250,7 +250,7 @@
       display: block;
       padding-top: 1rem;
       color: #d9583b;
-      font-size: .8rem;
+      font-size: 1.2rem;
   }
 
   form label.top input, form label.top select {
@@ -261,7 +261,7 @@
       border-radius: 5px;
       padding: .75rem;
       color: #262626;
-      width: 100%;
+      width: 96%;
       max-width: 20rem;
       background-color: rgba (0,0,0,.1);
   }
