@@ -232,6 +232,10 @@
 
   /*-------------form------------*/
 
+  form label{
+      text-align: left;
+  }
+
   form fieldset {
       margin: 2rem 0;
       border: 1px solid #262626;
