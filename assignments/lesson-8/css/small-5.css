@@ -255,6 +255,10 @@
       font-size: 1.2rem;
   }
 
+  form label.scale input {
+    display: block;
+  }
+
   form label.top input, form label.top select {
       -webkit-appearance: none;
       display: block;
