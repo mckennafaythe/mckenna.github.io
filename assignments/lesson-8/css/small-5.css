@@ -1,0 +1,231 @@
+  body {
+
+    text-align: center;
+    font-family: "PT Serif", serif;
+  
+  }
+  
+  header img {
+  
+    width: 130px;
+    height: 130px;
+    margin: 20px 20px 0px 0px;;
+  
+  }
+  
+  h1, h3, span {
+    
+    font-family: Roboto, sans-serif;
+    color: #d9583b;
+    
+  }
+  
+   .motto h1 {
+  
+    font-size: 35px;
+  
+  }
+  
+  .motto h2{
+  
+    font-size: 20px;
+    color: #f2f2f2;
+  
+  }
+  
+  
+  #mainNav ul {
+  
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    color: #f2f2f2;
+    list-style-type: none;
+    background-color: #262626;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    width: 100%;
+  
+  }
+  
+  a {
+  
+    text-decoration: none;
+  
+  }
+  
+  #mainNav ul li {
+  
+    padding: 10px 0px 10px 0px;
+  
+  }
+  
+  #mainHead {
+  
+    background-color: #a0dbf2;
+    width: 100%;
+    margin: 20px auto 0px auto;
+  
+  }
+  
+  .motto, header img {
+  
+    display: inline-block;
+  
+  }
+  
+  #mainNav ul li a:link, #mainNav ul li a:visited, #mainNav ul li:link, #mainNav ul li:visited {
+  
+    color: #f2f2f2;
+  
+  }
+  
+  #mainNav ul li a:hover, #mainNav ul li:hover {
+  
+    background-color: #d9583b;
+  
+  }
+  
+  #mainNav ul li a:active, #mainNav ul li:active {
+  
+    color: #262626;
+  
+  }
+  
+  #forecast {
+    
+    display: none;
+    
+  }
+  
+  #summarySec h1 {
+    
+    margin-top: 50px;
+    
+  }
+  
+  h3 {
+    
+    background-color: #a0dbf2;
+    margin: 0px auto 0px auto;
+    padding: 10px 0px 10px 0px;
+    color: #d9583b;
+    
+  }
+  
+  #weatherTitle, #weatherLive {
+    
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: #f2f2f2;
+    list-style-type: none;
+    background-color: #a0dbf2;
+    margin: 0px auto 0px auto;
+    padding: 0px;
+    
+  }
+  
+  #weatherTitle {
+    
+    text-align: right;
+    float: left;
+    width: 60%;
+    
+  }
+  
+  #weatherLive {
+    
+    text-align: left;
+    float: left;
+    width: 40%;
+    color: #d9583b;
+    
+    
+  }
+  
+  #summarySec {
+    
+    position: relative;
+    
+  }
+  
+  #summary {
+    
+    width: 240px;
+    position: absolute;
+    top: 60%;
+    margin-left: 20px;
+    z-index: 1;
+    
+  }
+  
+  #summary h3 {
+    
+    text-decoration: underline;
+    
+  }
+  
+  #weatherTitle li, #weatherLive li {
+    
+    padding: 5px;
+    
+  }
+  
+  section img, article img {
+    
+    width: 100%;
+    
+  }
+  
+  article img {
+    
+    box-shadow: 0 0 10px #262626;
+    
+  }
+  
+  article {
+    
+    background-color: #f2e0d0;
+    padding: 20px;
+    margin: 50px auto 50px auto;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #d8c7b8;
+    
+  }
+  
+  #author {
+    
+    color: #d9583b;
+    margin-bottom: 40px;
+    
+  }
+  
+  #contactMap {
+    
+    background-color: #a0dbf2;
+    padding: 15px;
+    margin: 0px;
+    
+  }
+  
+  #contactMap p {
+    
+    text-align: left;
+    padding-left: 35%;
+    
+  }
+  
+  #contactMap img {
+    
+    box-shadow: -1px -1px 2px #262626; 
+    
+  }
+  
+  footer {
+    
+    background-color: #262626;
+    color: #f2f2f2;
+    margin: 0px;
+    padding: 20px;
+    
+  }
