@@ -54,16 +54,16 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                 <legend>Reporter's Information</legend>
-                    <label>Full Name* <input type="text" name="fullName" required pattern="A-Za-z" minlength="5"></label>
-                    <label>Email <input type="email" name="email" placeholder="someone@email.com"></label>
-                    <label>Phone* <input type="tel" name="phone" required></label>
-                    <label>Zip Code* <input type="number" name="zip" required></label>
+                    <label class="top">Full Name* <input type="text" name="fullName" required pattern="A-Za-z" minlength="5"></label>
+                    <label class="top">Email <input type="email" name="email" placeholder="someone@email.com"></label>
+                    <label class="top">Phone* <input type="tel" name="phone" required></label>
+                    <label class="top">Zip Code* <input type="number" name="zip" required></label>
                 </fieldset>
 
                 <fieldset>
                 <legend>Storm Information</legend>
-                    <label>Storm date <input type="date" name="stormD"></label>
-                    <label>Storm Type<input list="stormType" name="stormT">
+                    <label class="top">Storm date <input type="date" name="stormD"></label>
+                    <label class="top">Storm Type<input list="stormType" name="stormT">
                         <datalist id="stormType">
                             <option value="Flash Flood">
                             <option value="Hail">
@@ -72,8 +72,8 @@
                             <option value="Tornado">
                         </datalist>
                     </label>
-                    <label>Storm Severity (1 to 10)<input type="range" value="5" min="1" max="10" step="1" name="severity" ></label>
-                    <label>Storm Region
+                    <label class="top">Storm Severity (1 to 10)<input type="range" value="5" min="1" max="10" step="1" name="severity" ></label>
+                    <label class="top">Storm Region
                         <select name="stormRegion">
                             <option value="">Select Region... &#9662;</option>
                             <option value="preston">Preston</option>
@@ -82,12 +82,12 @@
                         </select>
                     </label>
                     <div>Are You in Danger?</div>
-                    <label><input type="radio" name="danger" value="yes">Yes</label>
-                    <label><input type="radio" name="danger" value="maybe">Maybe</label>
-                    <label><input type="radio" name="danger" value="no">No</label>
+                    <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
+                    <label class="sbs"><input type="radio" name="danger" value="no">No</label>
                 </fieldset>
 
-                <input type="submit" value="Send Storm Info">
+                <input type="submit" value="Send Storm Info" class="submitBtn">
 
             </form>
 
