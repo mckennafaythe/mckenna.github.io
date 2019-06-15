@@ -238,7 +238,7 @@
       border: 1px solid #262626;
       border-radius: 5px;
       padding: 1rem 2%;
-      width: 96%;
+      width: 90%;
   }
 
   form legend {
@@ -253,6 +253,13 @@
       padding-top: 1rem;
       color: #d9583b;
       font-size: 1.2rem;
+  }
+
+  form label.scale {
+    color: #d9583b;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    margin-right: 1rem;
   }
 
   form label.top input, form label.top select {
