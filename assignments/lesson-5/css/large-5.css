@@ -109,5 +109,16 @@
         padding-left: 45%;
       
     }
+
+    /*--------------form---------------*/
+
+
+    form fieldset {
+        width: 50%;
+    }
+
+    form label.top input, form label.top select {
+        width: 50%;
+    }
     
 }
